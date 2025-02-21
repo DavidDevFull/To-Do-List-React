@@ -1,5 +1,6 @@
 import Tasks from "./components/Tasks"
 import AddTasks from "./components/AddTasks"
+import React from "react";
 
 
 function App(){
@@ -7,7 +8,6 @@ function App(){
   //const h1 = "Gerenciador de tarefas📝."
   return(
     <div>
-        <h1>Gerenciador de tarefas📝</h1>
         <AddTasks />
         <Tasks />
     </div>
